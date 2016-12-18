@@ -1,0 +1,65 @@
+/*GENERAL*/
+.grayLine {
+	border-top: 0.01em solid lightgray;
+}
+.bRight{
+    border-right: 0.01em solid #C1B386;
+}
+.logo {
+	height: 100%;
+}
+/*BACKGROUND*/
+body{
+    background: #F0F0F0;
+}
+.bg-gold{
+    background: #C1B386;
+}
+.bg-white{
+    background: white;
+}
+.bg-blue{
+    background: rgba(18, 24, 40, 0.5);
+}
+/*COLORS*/
+.gold{
+    color: #CCC09F;
+}
+/*SECTIONS*/
+/*HEADER*/
+
+/*CAROUSEL*/
+.carousel-control{
+    background: transparent !important;
+}
+.carousel-control img, .carousel-caption{
+    position: absolute;
+    top: 40%;
+}
+.carousel-caption{
+    width: 25%;
+}
+.carousel-indicators{
+    background-color: #C1B386;
+    height:0.7em;
+    width: 100%;
+    margin-left: -50%;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 5em;
+    height:0.7em;
+    margin-left: -0.3em;
+    border-radius: 0;
+    background-color: #A2925E;
+    position: relative;
+    top: -0.3em;
+    border-color: transparent;
+}
+.carousel-indicators .active {
+    width: 5em;
+    height:0.7em;
+    margin-left: -0.3em;
+    background-color: #C1B386;
+    border-color: transparent;
+}
