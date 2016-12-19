@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="css/queries.css">
     <link rel="stylesheet" href="css/utilities.css">
   </head>
 <body>
-    <header>
+    <header id="home">
        <!--SEARCH-->
         <nav class="hidden-xs">
             <div class="container-fluid">
@@ -35,8 +36,49 @@
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#" class="gold">Home</a></li>
-                        <li><a href="#" class="gold">Colections</a></li>
-                        <li><a href="#" class="gold">About us</a></li> 
+                        <li class="dropdown">
+                            <a href="#" class="dropbtn gold">Collections <br><img src="img/arrow-menu.svg" class="center-block pt-10"></a>
+                            <div class="dropdown-content">
+                                <div class="bg-dropMenu">
+                                    <div class="row pd-10 bg-white2 mg-0">
+                                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                            <h3 class="gold">Collection</h3>
+                                            <ul>
+                                                <li>Product name 1</li>
+                                                <li>Product name 1</li>
+                                                <li>Product name 1</li>
+                                                <li>Product name 1</li>
+                                                <li>Product name 1</li>
+                                                <li>Product name 1</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                            <h3 class="gold">Collection</h3>
+                                            <ul>
+                                                <li>Product name 1</li>
+                                                <li>Product name 1</li>
+                                                <li>Product name 1</li>
+                                                <li>Product name 1</li>
+                                                <li>Product name 1</li>
+                                                <li>Product name 1</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                            <h3 class="gold">Collection</h3>
+                                            <ul>
+                                                <li>Product name 1</li>
+                                                <li>Product name 1</li>
+                                                <li>Product name 1</li>
+                                                <li>Product name 1</li>
+                                                <li>Product name 1</li>
+                                                <li>Product name 1</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#" class="gold text-center">About us <br> &#9679;</a></li> 
                         <li><a href="#" class="gold">Blog</a></li> 
                         <li><a href="#" class="gold">Contact</a></li> 
                         <li><a href="#" class="bRight"><img src="img/shopping-cart.svg" alt=""></a></li>
@@ -320,16 +362,16 @@
                     <h2>POPULAR BRANDS</h2>
                     <hr class="pull-left">
                 </div>
-                <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
+                <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
                     <img src="img/popular-brand.svg" class="img-responsive">
                 </div>
-                <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
+                <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
                     <img src="img/popular-brand.svg" class="img-responsive">
                 </div>
-                <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
+                <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
                     <img src="img/popular-brand.svg" class="img-responsive">
                 </div>
-                <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
+                <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
                     <img src="img/popular-brand.svg" class="img-responsive">
                 </div>
             </div>
@@ -407,6 +449,93 @@
             </div>
         </div>
     </section>
+    <!--FOOTER-->
+    <footer class="bg-white">
+        <div class="container pd-0">
+            <a href="#home"><img src="img/up.PNG" class="pull-right" id="up"></a>
+            <div class="row mt-5 mb-3">
+               <!--COLLECTIONS-->
+                <div class="hidden-xs col-sm-2 col-md-2 col-lg-2">
+                    <h3 class="gold pb-10">COLLECTIONS</h3>
+                    <p><a class="black">Collection 1 neckless</a></p>
+                    <p><a class="black">Collection 2 earrings</a></p>
+                    <p><a class="black">Collection 3 bracelets</a></p>
+                    <p><a class="black">Collection 4 rings</a></p>
+                </div>
+                <!--ACCOUNT-->
+                <div class="hidden-xs col-sm-2 col-md-2 col-lg-2">
+                    <h3 class="gold pb-10">ACCOUNT</h3>
+                    <p><a class="black">Login</a></p>
+                    <p><a class="black">My Account</a></p>
+                    <p><a class="black">Shopping cart</a></p>
+                    <p><a class="black">Gift cards</a></p>
+                </div>
+                <!--PRODUCTS-->
+                <div class="hidden-xs col-sm-2 col-md-2 col-lg-2">
+                    <h3 class="gold pb-10">PRODUCTS</h3>
+                    <p><a class="black">New products</a></p>
+                    <p><a class="black">Featured products</a></p>
+                    <p><a class="black">Popular brands</a></p>
+                </div>
+                <!--CONTACT-->
+                <div class="hidden-12 col-sm-6 col-md-6 col-lg-6 pl-10">
+                    <h3 class="gold pb-10">CONTACT</h3>
+                    <div class="row">
+                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+                            <img src="img/marcador.svg"> 
+                        </div>
+                        <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+                            <p>507-Union Trade Center, Beside Apple Hospital, Udhana Darwaja, Ring Road, Surat.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+                            <img src="img/phone.svg">          
+                        </div>
+                        <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+                            <p>01 800 123 0145</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+                            <img src="img/email.svg"> 
+                        </div>
+                        <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+                            <p>contact@jewelry.mx</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                            <h3 class="gold bRight">FOLLOW US</h3>
+                        </div>
+                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 pt-3">
+                            <img src="img/twitter.svg">
+                        </div>
+                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 pt-3 gold">&#9679;</div>
+                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 pt-3">
+                            <img src="img/facebook.svg">
+                        </div>
+                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 pt-3 gold">&#9679;</div>
+                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 pt-3">
+                            <img src="img/youtube.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row goldenLine pt-2 pb-1">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 pull-right">
+                    <img src="img/money-bookers.svg" class="pull-right pl-3">
+                    <img src="img/paypal.svg" class="pull-right pl-3">
+                    <img src="img/american-express.svg" class="pull-right pl-3">
+                    <img src="img/mastercard.svg" class="pull-right pl-3">
+                    <img src="img/visa.svg" class="pull-right pl-3">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <p>Privacy policy</p>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!--JS/JQUERY-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

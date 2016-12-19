@@ -15,8 +15,28 @@
     .text-right{
         text-align: center;
     }
+    .text-center {
+        text-align: left;
+    }
+    .pull-right {
+	    padding-right: 6%;
+    }
+    .center-block {
+	    padding-top: 0;
+    }
     .viewCollection{
         color: #CCC09F;
+    }
+    .dropdown-content {
+        display: block;
+        position: inherit;
+        width: 60%;;
+    }
+    .dropdown-content .col-xs-4 {
+        width: 100%;
+    }
+    .bg-dropMenu, .bg-dropMenu bg-white2{
+        background: transparent;
     }
 }
 @media only screen and (min-width: 768px) {

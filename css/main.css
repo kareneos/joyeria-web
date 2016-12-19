@@ -1,4 +1,7 @@
 /*GENERAL*/
+*{
+    font-family: 'Poiret One', cursive;
+}
 .goldenLine{
     border-top: 0.01em solid #C1B386;
 }
@@ -47,14 +50,30 @@ body, bg-general{
 .bg-white2{
     background: rgba(233, 229, 228, 0.8);
 }
+.bg-dropMenu{
+    background-image: url("../img/new-product.jpg");
+    background-size: 100% 100%
+}
 /*COLORS*/
 .gold{
     color: #C1B386;
 }
 /*SECTIONS*/
 /*HEADER*/
-
+.dropdown-content {
+    display: none;
+    background-color: #f9f9f9;
+    position: absolute;
+    right: 0;
+	width: 50em;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
 /*CAROUSEL*/
+#myCarousel{
+    z-index: -1;
+}
 .carousel-control{
     background: transparent !important;
 }
@@ -104,4 +123,11 @@ body, bg-general{
 #email{
     border: none;
     width: 60%;
+}
+/*FOOTER*/
+footer{
+    border-top: 0.3em solid #C1B386;
+}
+#up{
+    width: 5%;
 }
