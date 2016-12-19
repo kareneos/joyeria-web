@@ -8,11 +8,20 @@
 .bRight{
     border-right: 0.01em solid #C1B386;
 }
+.lineBot{
+    border-bottom: 0.01em solid #C1B386;
+}
 .logo {
 	height: 100%;
 }
+hr{
+    width: 8%;
+}
+button, input{
+    background: transparent !important;
+}
 /*BACKGROUND*/
-body{
+body, bg-general{
     background: #F0F0F0;
 }
 .bg-gold{
@@ -32,9 +41,15 @@ body{
     height: 100%;
     width: 100%;
 }
+.bg-blog {
+	background-image: url("../img/background-logo.jpg");
+}
+.bg-white2{
+    background: rgba(233, 229, 228, 0.8);
+}
 /*COLORS*/
 .gold{
-    color: #CCC09F;
+    color: #C1B386;
 }
 /*SECTIONS*/
 /*HEADER*/
@@ -84,4 +99,9 @@ body{
 }
 .bg-blue:hover{
     color: #CCC09F;
+}
+/*NEWSLETTER*/
+#email{
+    border: none;
+    width: 60%;
 }
