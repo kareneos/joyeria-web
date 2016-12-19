@@ -34,9 +34,16 @@
     }
     .dropdown-content .col-xs-4 {
         width: 100%;
+        padding: 0;
     }
-    .bg-dropMenu, .bg-dropMenu bg-white2{
-        background: transparent;
+    .bg-dropMenu, .bg-dropMenu .bg-white2{
+        background: #F0F0F0;
+    }
+    .nav {
+	    padding-left: 10%;
+    }
+    #close{
+        display: none
     }
 }
 @media only screen and (min-width: 768px) {
